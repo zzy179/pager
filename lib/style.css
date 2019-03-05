@@ -1,0 +1,101 @@
+.sw-pagination ul {
+  list-style: none;
+  user-select: none;
+  display: inline-block;
+}
+.sw-pagination ul li {
+  cursor: pointer;
+  display: inline-block;
+  min-width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  margin-right: 8px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  transition: border 0.3s;
+}
+.sw-pagination ul li:first-child a, .sw-pagination ul li:last-child a {
+  padding: 0 4px;
+}
+.sw-pagination ul li.active, .sw-pagination ul li:hover:not(.disable):not(.deactive) {
+  border-color: #1890ff;
+  color: #1890ff;
+  font-weight: 500;
+}
+.sw-pagination ul li.disable {
+  cursor: not-allowed;
+  border: 1px solid #ecebeb;
+  color: #d9d9d9;
+}
+.sw-pagination ul li.deactive {
+  border: 1px solid #ecebeb;
+  color: #d9d9d9;
+}
+.sw-pagination ul li a {
+  display: block;
+}
+.sw-pagination .pagination-jump {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  color: #999;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.sw-pagination .pagination-jump input {
+  width: 30px;
+  height: 20px;
+  margin: 0 4px;
+  outline: none;
+  text-align: center;
+}
+.sw-pagination .pagination-jump button {
+  cursor: pointer;
+  margin-left: 5px;
+  display: inline-block;
+  min-width: 32px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  margin-right: 8px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+  border-radius: 2px;
+  border: 1px solid #d9d9d9;
+  transition: border 0.3s;
+  background-color: #ffffff;
+}
+
+.sw-minipagination {
+  text-align: center;
+}
+.sw-minipagination a {
+  user-select: none;
+  text-decoration: none;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: middle;
+  padding: 0 15px;
+  height: 28px;
+  line-height: 28px;
+  margin: 0 -1px 5px 0;
+  background-color: #fff;
+  color: #333;
+  font-size: 12px;
+  border: 1px solid #e2e2e2;
+}
+.sw-minipagination a.disable {
+  cursor: not-allowed;
+  border: 1px solid #ecebeb;
+  color: #d9d9d9;
+}
+.sw-minipagination span {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+/*# sourceMappingURL=style.css.map */

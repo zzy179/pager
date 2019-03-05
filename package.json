@@ -1,0 +1,23 @@
+{
+	"name": "@aimer2/pager",
+	"version": "1.0.1",
+	"description": "墨葡科技前端分页组件",
+	"main": "lib/index.js",
+	"scripts": {
+		"sass": "sass src/style/index.scss lib/style.css",
+		"compile": "npx babel src --out-dir lib --presets=@babel/preset-env,@babel/preset-react"
+	},
+	"author": "ktlshy",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.2.3",
+		"@babel/core": "^7.2.2",
+		"@babel/preset-env": "^7.3.1",
+		"@babel/preset-react": "^7.0.0",
+		"react": "^16.7.0",
+		"react-dom": "^16.7.0"
+	},
+	"babel": {
+		"plugins": []
+	}
+}
