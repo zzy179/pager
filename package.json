@@ -1,6 +1,6 @@
 {
 	"name": "@aimer2/pager",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "墨葡科技前端分页组件",
 	"main": "lib/index.js",
 	"scripts": {
@@ -8,7 +8,7 @@
 		"compile": "npx babel src --out-dir lib --presets=@babel/preset-env,@babel/preset-react"
 	},
 	"author": "ktlshy",
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
 		"@babel/cli": "^7.2.3",
 		"@babel/core": "^7.2.2",
@@ -19,5 +19,9 @@
 	},
 	"babel": {
 		"plugins": []
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ktlshy/pager"
 	}
 }
