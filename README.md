@@ -1,7 +1,7 @@
 **Install**
 
 ```shell
-npm install '@aimer/pager'
+npm install '@aimer2/pager'
 ```
 
 **Usage**
